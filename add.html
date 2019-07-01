@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-08">
+        <meta content="width=device-width,initial-scale=1.0" name="viewport">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+    </head>
+<style>
+    label{
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .container{
+        width: 70%;
+        border: 2px solid lightgray;
+    }
+    .col{
+        float: right;
+        width: 33.33%;
+
+    }
+    .row::after{
+        content: " ";
+        clear: both;
+        display: table;
+    }
+</style>
+<body>
+    <div class="text-capitalize text-center justify-content-center mt-3 p-4">
+        <h4>Add publications</h4>
+    </div>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="form-group col-md-6 col">
+                    <label for="Title">Title of the paper :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+            <div class="form-group col-md-6">
+                    <label>Name of the author :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                    <label>Name of Co-authors :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+            <div class="form-group col-md-6">
+                    <label>No Of authors :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                    <label>Name of the journal :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+            <div class="form-group col-md-6">
+                    <label>Impact factor :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                    <label>volume :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+            <div class="form-group col-md-6">
+                    <label>Issue :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-md-6">
+                    <label>Month :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+            <div class="form-group col-md-6">
+                    <label>Year :</label>
+                    <input class="form-control input-group" type="text">
+            </div>
+        </div>
+            <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <br>
+       
+    </div>
+
+
+
+</body>
+</html>
